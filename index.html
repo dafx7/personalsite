@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Daffa's Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&family=Montserrat
+        &family=Roboto&family=Roboto+Mono&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <div class="top-container">
+                <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+                <h1>I'm Daffa</h1>
+                <h2>a <span class="pro">programmer.</span></h2>
+                <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+                <img src="images/mountain.png" alt="mountain-img">
+            </div>
+
+            <div class="middle-container">
+              <div class="profile">
+                <img src="images/7cb24a9c-2dc6-47bd-bed1-ce517adcadd1-modified (1).png" alt="daffa profile picture">
+                <h2>Hello.</h2>
+                <p>I'm an Indonesian student, a newbie developer, and a coffee addict.</p>
+              </div>
+              <hr>
+              <div class="skills">
+                <h2>My Skills.</h2>
+                <div class="skill-row">
+                  <img class="python-image" src="images/python.png" alt="">
+                  <h3>Python Programming</h3>
+                  <p>I started learning Python around two years ago, and even though I took a five-month hiatus from it,
+                      I'm still progressing with the #100DaysOfPython program and have picked up some intermediate
+                      concepts.</p>
+                </div>
+                <div class="skill-row">
+                  <img class="editing-image" src="images/video-editing.png" alt="">
+                  <h3>Video Editing</h3>
+                  <p>I got my start in video editing when I was asked to do some light editing for an event I helped
+                      organize as the head of IT. Since then, I've learned the basics of it.</p>
+                </div>
+                <div class="skill-row">
+                  <img class="tech-image" src="images/technology.png" alt="">
+                  <h3>Basic Tech Knowledge</h3>
+                  <p>I was first exposed to technology by my late grandpa, who built a Windows XP PC that was rather
+                      impressive at the time. Since then, I've embraced immersive learning to expand my understanding
+                      of IT and my passion for it has grown to be immeasurable. Every day I learn something new, and
+                      I'm always delighted to help out my friends in the field, whether it's helping them through the
+                      process of changing their Kahoot profile photo or converting an excel file to a PDF.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>If you love all things IT.</h3>
+                <p class="contact-me-text">Whatever your interest in IT, whether you want to develop together or just need a friend to talk to, let's connect!</p>
+                <a class="btn" href="mailto:aminuddindaffa@gmail.com">CONTACT ME</a>
+              </div>
+            </div>
+
+            <div class="bottom-container">
+              <a class="footer-link" href="https://www.instagram.com/daf___a/">Instagram</a>
+              <a class="footer-link" href="https://twitter.com/">Twitter</a>
+              <a class="footer-link" href="https://dafx7.github.io/cv/">Website</a>
+              <p class="copyright">© 2022 Daffa Siregar.</p>
+            </div>
+        </div>
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3500);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+    </body>
+</html>
